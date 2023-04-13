@@ -760,6 +760,7 @@
     },
     "Snapshot": "Save As In-Game Loadout",
     "SortByName": "Sort by name",
+    "SortByNotes": "Sort by notes",
     "SortByEditTime": "Sort by last edited",
     "Share": {
       "Title": "Share \"{{name}}\"",

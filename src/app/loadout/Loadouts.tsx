@@ -44,6 +44,11 @@ const sortOptions = [
     content: tl('Loadouts.SortByName'),
     value: LoadoutSort.ByName,
   },
+  {
+    key: 'notes',
+    content: tl('Loadouts.SortByNotes'),
+    value: LoadoutSort.ByNotes,
+  },
 ];
 
 /**

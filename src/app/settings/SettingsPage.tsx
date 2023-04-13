@@ -548,6 +548,16 @@ export default function SettingsPage() {
                   />
                   <span>{t('Loadouts.SortByName')}</span>
                 </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="loadoutSort"
+                    checked={settings.loadoutSort === LoadoutSort.ByNotes}
+                    value={LoadoutSort.ByNotes}
+                    onChange={onChangeNumeric}
+                  />
+                  <span>{t('Loadouts.SortByNotes')}</span>
+                </label>
               </div>
             </div>
           </section>
